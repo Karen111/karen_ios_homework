@@ -15,7 +15,6 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *introScroll;
 @property (weak, nonatomic) IBOutlet UIImageView *introImage;
 @property (weak, nonatomic) IBOutlet UITextView *introText;
-@property (nonatomic, strong) UILabel *pageControl;
 @property (weak, nonatomic) IBOutlet UIPageControl *introPageControl;
 
 @end

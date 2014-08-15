@@ -56,13 +56,20 @@
     NSDictionary *picture = [array objectAtIndex:i];
     NSString *img_str = [picture objectForKey:@"image_url"];
     NSLog(@"str:%@",img_str);
-    self.introImage.image =[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:img_str]]];
-       
+    UIImageView *tmp =[[UIImageView alloc]initWithFrame:CGRectMake(i*320, 0, 320, 240)];
+    tmp.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:img_str]]];
+    [self.introScroll addSubview:tmp];
+//    self.introImage.image =[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:img_str]]];
+    
         
     NSDictionary *dic = [array objectAtIndex:i];
     NSString *str = [dic objectForKey:@"description"];
     NSLog(@"str:%@",str);
-    self.introText.text = str;
+//    self.introText.text = str;
+        
+    UITextView *temp1 =[[UITextView alloc]initWithFrame:CGRectMake(i*320, 240, 320, 240)];
+    temp1.text = str;
+    [self.introScroll addSubview:temp1];
     }
 
     // use code to write scrollview not with xib.

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D3FD189199DB2C600952BE0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FD188199DB2C600952BE0 /* 1.jpg */; };
 		2D69C198199B5D3100345707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D69C197199B5D3100345707 /* Foundation.framework */; };
 		2D69C19A199B5D3100345707 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D69C199199B5D3100345707 /* CoreGraphics.framework */; };
 		2D69C19C199B5D3100345707 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D69C19B199B5D3100345707 /* UIKit.framework */; };
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D3FD188199DB2C600952BE0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../1.jpg; sourceTree = "<group>"; };
 		2D69C194199B5D3100345707 /* HomeworkOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D69C197199B5D3100345707 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D69C199199B5D3100345707 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,7 +112,6 @@
 		2D69C19D199B5D3100345707 /* HomeworkOne */ = {
 			isa = PBXGroup;
 			children = (
-				2D3FD188199DB2C600952BE0 /* 1.jpg */,
 				2D69C1A6199B5D3100345707 /* HOAppDelegate.h */,
 				2D69C1A7199B5D3100345707 /* HOAppDelegate.m */,
 				2D69C1C6199B5D5300345707 /* HOViewController.h */,
@@ -232,7 +229,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D69C1CA199B5D5300345707 /* HOViewController.xib in Resources */,
-				2D3FD189199DB2C600952BE0 /* 1.jpg in Resources */,
 				2D69C1A2199B5D3100345707 /* InfoPlist.strings in Resources */,
 				2D69C1AA199B5D3100345707 /* Images.xcassets in Resources */,
 			);

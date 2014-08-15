@@ -41,7 +41,7 @@
     self.introScroll.showsHorizontalScrollIndicator = NO;
     
     [self.view addSubview:self.introScroll];
-    
+    //test
     //Trace request
     NSArray *array = [self locationsFromJSONFile:[NSURL URLWithString:@"http://www.indexbricks.com/data/get_update.php?function_code=Intro&store=livebricks&version=0&language=TW"]];
     int page = [array count];

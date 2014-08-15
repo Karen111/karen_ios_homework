@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3582100-8C35-4FA4-8A88-3137A1CBF597</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HomeworkOne</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FF081176-09D2-4853-8BAA-5C5746708B7A</key>
+		<string>https://github.com/Karen111/karen_ios_homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HomeworkOne.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FF081176-09D2-4853-8BAA-5C5746708B7A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Karen111/karen_ios_homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FF081176-09D2-4853-8BAA-5C5746708B7A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF081176-09D2-4853-8BAA-5C5746708B7A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>karen_ios_homework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
